@@ -1,0 +1,25 @@
+:root{
+    --theme-blue:#2a39bdd3;
+  }  
+  .common-details h2{
+    font-family: Dancing Script;
+    padding: 1rem 1rem .5rem 1rem;
+  }
+  .common-details h3{
+    font-family: Jost;
+    padding: .5rem 1rem ;
+  }
+  .common-details p{
+    color: black;
+    padding: 1rem;
+  }
+  .year{
+    font-family: Jost;
+    font-weight: 300;
+    padding: .5rem 0rem;
+    color: black;
+  }
+  .career-detail{
+      padding-bottom: 1rem;
+  }
+  

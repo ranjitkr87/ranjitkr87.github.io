@@ -1,0 +1,240 @@
+:root{
+    --theme-blue:#2a39bdd3;
+    --light-grey:rgba(235 231 249);
+  }  
+body{
+    background-color:var(--theme-blue);
+    color: white;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    padding: 1rem;
+    font-family: Jost;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 40px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+h5{
+    font-size: 1.2rem;
+}
+h6{
+    font-size: 1.2rem;
+}
+p, ul{    
+    font-family: Jost;
+    font-weight: 300;
+    line-height: 1.9rem;
+}
+li{
+    font-size: 1rem;
+}
+header{
+    padding: 1rem;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    font-size: 1.4rem;
+    align-items: center;
+}
+.nav-bar h3{
+    justify-self: flex-start;
+    font-family: Alfa Slab One;
+}
+.fa-bars{
+    justify-self: flex-end;
+    padding: .5rem;
+}
+.fab{
+    color: black;
+}
+.intro{
+    background:url(https://cdn.vox-cdn.com/thumbor/78CD8_rVttHcu7u5MyrDVfk43zA=/4x0:1017x675/1280x854/cdn.vox-cdn.com/uploads/chorus_image/image/65863458/office2016review2_1020.0.0.1442915145.0.jpg);
+   background-position: bottom;
+    background-size: cover;
+    height: 220px;
+    position: relative;
+}
+.intro-details{
+    background-color:rgb(62 62 59 / 43%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.intro-details1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+}
+.intro-details h4{
+    font-family: Jost;
+    font-weight: lighter;
+    padding: .5rem;
+}
+.intro-details h2{
+    font-family: Alfa Slab One;
+    padding: .5rem;
+}
+.intro-details h3{
+    font-family: Dancing Script;
+    padding: 1rem;
+}
+.my-image-div{
+    padding: 1rem;
+}
+.my-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.graduation-details{
+    padding: 0rem 1rem;
+    text-align: center;
+}
+.email-phone{
+    padding: 1rem;
+}
+.linkedin{
+    padding: 1rem;
+}
+.linkedin a{
+    color: white;
+    font-size: 1.4rem;
+}
+.email-phone button{
+    color: var(--theme-blue);
+    background-color: white;
+}
+.email-phone button:hover{
+    padding: 1.2rem;
+}
+.about{
+    background-color: rgb(235 231 249);
+    color: var(--theme-blue);
+    text-align: left;
+}
+.about-div{
+    padding: 1rem;
+}
+.education-experiance{
+    background-color: white;
+    color:var(--theme-blue) ;
+}
+.education-experiance-div{
+    padding: 1rem;
+    text-align: left;
+}
+.item{
+    color: black;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+.skills{
+    background-color: var(--light-grey);
+    color: #2a39bdd3;
+    padding: 1rem;
+}
+.skills h6{
+    color: black;
+    padding-left: 0rem;
+    font-size: 1rem;
+}
+.skill-items{
+    text-align: left;
+    font-family: Jost;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.skill-item-1{
+    border-bottom: 3px solid;
+    border-image:   linear-gradient(to right, #2a39bdd3 100%, rgb(199, 199, 196) 0%) 5;
+    padding-top: 2rem;
+}
+.skill-item-2{
+    border-bottom: 3px solid;
+    border-image:   linear-gradient(to right, #2a39bdd3 80%, rgb(199, 199, 196) 20%) 5;
+    padding-top: 2rem;
+}
+.skill-item-3{
+    border-bottom: 3px solid;
+    border-image:   linear-gradient(to right, #2a39bdd3 60%, rgb(199, 199, 196 )40%) 5;
+    padding-top: 2rem;
+}
+.skill-item-4{
+    border-bottom: 3px solid;
+    border-image:   linear-gradient(to right, #2a39bdd3 50%, rgb(199, 199, 196) 50%) 5;
+    padding-top: 2rem;
+}
+.skill-item{
+padding-top: 0.5rem;
+}
+.certifications, .white-head h4{
+    color: white;
+    text-align: left;
+}
+.certifications-div{
+    padding: 1rem;
+}
+.interests{
+    background-color: white;
+    color: var(--theme-blue);
+}
+.interests-div{
+    padding: 1rem;
+}
+.interest-items{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: black;
+    padding-top: 1rem;
+}
+.interest-items p{
+    padding-bottom: 1rem;
+    line-height: 1rem;
+}
+.right-item{
+    text-align: right;
+}
+.foot{
+    background-color: var(--light-grey);
+    color: var(--theme-blue);
+}
+.bottom-email-phone{
+    font-weight: 500;
+}
+.foot button{
+    background-color: var(--theme-blue);
+    color: white;
+}
+.foot-div{
+    padding: 1rem;
+}
+@media only screen and (min-width: 768px){
+
+}
