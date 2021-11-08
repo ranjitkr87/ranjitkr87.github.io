@@ -12,7 +12,7 @@
     </head>
     <body>
         <header>
-            <nav class="nav-bar">
+            <nav class="nav-bar" id="nav-items">
                 <h3 class="nav-name">Ranjit Rajan</h3>
                 <div class="dropdown" id="dropDownMain">
                     <button onclick="dropdown()" class="dropbtn"><i class="fas fa-bars mob-tab"></i></button>                    
@@ -242,59 +242,65 @@
                 </div>
             </div>
         </section>
-        <section class="certifications" id="my-certifications">
-            <div class="certifications-div">
-                <div class="common-details">
-                    <h2>Certifications</h2>
-                    <h3>What I pursue</h3>
+        <section class="certificates-interests">
+            <div class="certificates-interests-div">
+                <div class="certifications" id="my-certifications">
+                    <div class="certifications-div">
+                        <div class="common-details">
+                            <h2>Certifications</h2>
+                            <h3>What I pursue</h3>
+                        </div>
+                        <div class="item certifications white-head">
+                            <h4 class="year">PRIMAVERA P6</h4>
+                            <ul>
+                                <li>1. Primavera(P6) Professional Certificate of completion from Cadd Centre</li>
+                                <li>2. Primavera(P6) Professional Training by Mudezar Affraz- Certificate of completion from Udemy (Online)</li>
+                            </ul>
+                        </div>
+                        <div class="item certifications white-head">
+                            <h4 class="year">MS. PROJECT</h4>
+                            <ul>
+                                <li>1. MS Project Professional Certificate of completion from Cadd Centre</li>
+                                <li>2. Project Management with MS Project - Scheduling Master Class by Igor Ovchinnikov- Certificate of completion from Udemy (Online)</li>
+                            </ul>
+                        </div>
+                        <div class="item certifications white-head">
+                            <h4  class="year">BUSINESS INTELLIGENCE /ANALYST</h4>
+                            <ul>
+                                <li>1. The Business intelligence analyst course 2020 by 365 Careers - Certificate of completion from Udemy (Online)</li>
+                            </ul>
+                        </div>
+                        <div class="item certifications white-head">
+                            <h4  class="year">GIT & GITHUB</h4>
+                            <ul>
+                                <li>1. Git Certification competency development program by Konfinity</li>
+                                <li>2. Git Going Fast: One Hour Git Crash Course by Jason Taylor - Certificate of completion from Udemy (Online)</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="item certifications white-head">
-                    <h4 class="year">PRIMAVERA P6</h4>
-                    <ul>
-                        <li>1. Primavera(P6) Professional Certificate of completion from Cadd Centre</li>
-                        <li>2. Primavera(P6) Professional Training by Mudezar Affraz- Certificate of completion from Udemy (Online)</li>
-                    </ul>
+                <div class="interests" id="my-interests">
+                    <div class="interests-div">
+                        <div class="common-details">
+                            <h2>Interests</h2>
+                            <h3>Out of office</h3>
+                        </div>
+                        <div class="interest-items">
+                            <p>Web Development</p>
+                            <p class="right-item">New Technologies</p>
+                            <p>Philately</p>
+                            <p class="right-item">Travel</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="item certifications white-head">
-                    <h4 class="year">MS. PROJECT</h4>
-                    <ul>
-                        <li>1. MS Project Professional Certificate of completion from Cadd Centre</li>
-                        <li>2. Project Management with MS Project - Scheduling Master Class by Igor Ovchinnikov- Certificate of completion from Udemy (Online)</li>
-                    </ul>
-                </div>
-                <div class="item certifications white-head">
-                    <h4  class="year">BUSINESS INTELLIGENCE /ANALYST</h4>
-                    <ul>
-                        <li>1. The Business intelligence analyst course 2020 by 365 Careers - Certificate of completion from Udemy (Online)</li>
-                    </ul>
-                </div>
-                <div class="item certifications white-head">
-                    <h4  class="year">GIT & GITHUB</h4>
-                    <ul>
-                        <li>1. Git Certification competency development program by Konfinity</li>
-                        <li>2. Git Going Fast: One Hour Git Crash Course by Jason Taylor - Certificate of completion from Udemy (Online)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="interests" id="my-interests">
-            <div class="interests-div">
-                <div class="common-details">
-                    <h2>Interests</h2>
-                    <h3>Out of office</h3>
-                </div>
-                <div class="interest-items">
-                    <p>Web Development</p>
-                    <p class="right-item">New Technologies</p>
-                    <p>Philately</p>
-                    <p class="right-item">Travel</p>
-                </div>
-            </div>
-
+            </div>            
         </section>
         <section class="foot" id="my-contact">
             <div class="foot-div">
-                <h3>I'd love to hear from you</h3>
+                <div class="foot-text">
+                    <h3>I'd love to hear from you</h3>
+                    <a href="#nav-items"><i class="fas fa-angle-up"></i></a>
+                </div>
                 <div class="bottom-email-phone">
                     <p>ranjitkr87@gmail.com</p>
                     <p>+91-9895311062</p>
@@ -304,8 +310,7 @@
                      <div class="download download-bottom">
                         <a href="../pdf/CV Planning Ranjit.pdf">Download CV</a>
                      </div>
-                </div>              
-                
+                </div>     
             </div>
         </section>
         <script src="../scripts/script.js"></script>

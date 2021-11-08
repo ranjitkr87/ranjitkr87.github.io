@@ -271,6 +271,10 @@ padding-top: 0.5rem;
     background-color: var(--light-grey);
     color: var(--theme-blue);
 }
+
+.fa-angle-up{
+    display: none;
+}
 .foot h3{
     padding-bottom: 1rem;
 }
@@ -301,10 +305,10 @@ h4{
     letter-spacing: .5rem;
 }
 h5{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 h6{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 p, ul{    
     font-family: Jost;
@@ -323,7 +327,7 @@ li{
         font-size: 1.2rem;;
     }
     .nav-bar{
-        padding: 1rem 4rem;
+        padding: 1rem 6rem;
         grid-template-columns: 1fr;
     }
 .nav-name{
@@ -348,7 +352,7 @@ li{
 }
 .menu a{
     color:white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: .5rem 1rem;
     padding-right: 0rem;
     text-decoration: none;
@@ -360,7 +364,7 @@ li{
 }
 .intro-photo-contact{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 67% 33%;
 }
 .intro{
     background-size: cover;
@@ -388,16 +392,16 @@ li{
     text-align: left;
 }
 .intro-details1 h2{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 .intro-details1 h3{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 .intro-details1 h4{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 .photo-contact{
-    padding: 0rem 4rem;
+    padding: 0rem 6rem;
 }
 .my-image-div{
     padding :0rem
@@ -411,7 +415,79 @@ li{
 .graduation-details{
     padding: 2rem 1rem;
 }
+.download{
+    padding: 2rem 1rem 4rem  1rem;
+}
 .download a{
     padding: 1rem 2rem;
+}
+.about{
+    padding: 2rem 6rem;
+}
+.education-experiance-div{
+    padding: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.item{
+padding: 0rem;
+padding-bottom: 2rem;
+}
+.skills-dev{
+    padding: 2rem 6rem;
+    text-align: left;
+}
+.skills-dev{
+    padding-right: 45rem;
+}
+.skills h5{
+    padding-bottom: 2rem;
+}
+.skills h6{
+    color: black;
+    padding-left: 0rem;
+    font-size: 1.2rem;
+}
+.skill-items{
+    padding-bottom: 3rem;
+}
+.certificates-interests-div{
+    padding: 2rem 6rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.interests{
+    height: fit-content;
+    align-self: center;
+    background-color: var(--light-grey);
+}
+.common-details{
+    text-align: left;
+}
+.foot-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+    padding: 2rem 6rem;
+}
+.foot-text{
+    text-align: left;
+}
+.foot-text h3{
+    padding-bottom: 2rem;
+}
+.fa-angle-up{
+    display: block;
+    display: inline-block;
+  border-radius: 60px;
+  box-shadow: 2px 2px 2px 2px var(--theme-blue);
+  padding: 0.5em 0.6em;
+}
+.bottom-email-phone{
+justify-self: flex-end;
+}
+.download-bottom{
+    padding: 2rem;
 }
 }
