@@ -48,6 +48,7 @@ header{
     padding: 1rem;
 }
 .nav-bar{
+    position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
     font-size: 1.4rem;
@@ -57,12 +58,35 @@ header{
     justify-self: flex-start;
     font-family: Alfa Slab One;
 }
-.fa-bars{
+.dropdown{
     justify-self: flex-end;
+    position: relative;
+}
+.fa-bars{
     padding: .5rem;
+    padding-right: 0rem;
 }
 .fab{
     color: black;
+}
+.menu{
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: var(--theme-blue);
+    color: white;
+    text-align: left;
+    left: -10rem;
+}
+.menu a{
+    color:white;
+    font-size: 1rem;
+    padding: .5rem;
+    padding-right: 0rem;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
 }
 .intro{
     background:url(https://cdn.vox-cdn.com/thumbor/78CD8_rVttHcu7u5MyrDVfk43zA=/4x0:1017x675/1280x854/cdn.vox-cdn.com/uploads/chorus_image/image/65863458/office2016review2_1020.0.0.1442915145.0.jpg);
