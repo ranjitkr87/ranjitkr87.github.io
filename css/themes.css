@@ -213,7 +213,7 @@ header{
     text-align: left;
     font-family: Jost;
     font-weight: 300;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 .skill-item-1{
     border-bottom: 3px solid;
