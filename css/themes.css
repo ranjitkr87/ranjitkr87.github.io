@@ -41,6 +41,11 @@ p, ul{
     font-weight: 300;
     line-height: 1.9rem;
 }
+a{
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 1rem;
+}
 li{
     font-size: 1rem;
 }
@@ -62,9 +67,18 @@ header{
     justify-self: flex-end;
     position: relative;
 }
+.dropdown button{
+    background-color: var(--theme-blue);
+      border: none;
+      color: white;
+      padding: 0rem;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0%;
+
+}
 .fa-bars{
-    padding: .5rem;
-    padding-right: 0rem;
+    padding: 0rem;
 }
 .fab{
     color: black;
@@ -78,6 +92,8 @@ header{
     color: white;
     text-align: left;
     left: -10rem;
+    margin-top: 0.5rem;
+    display: none;
 }
 .menu a{
     color:white;
