@@ -89,7 +89,6 @@ header{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: white;
-    background-color: var(--theme-blue);
     text-align: left;
     left: -10rem;
     margin-top: 0.5rem;
@@ -438,9 +437,6 @@ padding-bottom: 2rem;
     padding: 2rem 6rem;
     text-align: left;
 }
-.skills-dev{
-    padding-right: 45rem;
-}
 .skills h5{
     padding-bottom: 2rem;
 }
@@ -448,6 +444,11 @@ padding-bottom: 2rem;
     color: black;
     padding-left: 0rem;
     font-size: 1.2rem;
+}
+.language-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
 }
 .skill-items{
     padding-bottom: 3rem;
