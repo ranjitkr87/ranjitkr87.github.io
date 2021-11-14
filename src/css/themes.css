@@ -463,6 +463,9 @@ padding-bottom: 2rem;
     align-self: center;
     background-color: var(--light-grey);
 }
+.interest-items p{
+    padding-bottom: 2rem;
+}
 .common-details{
     text-align: left;
 }
