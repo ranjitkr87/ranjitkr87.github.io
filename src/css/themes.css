@@ -80,9 +80,6 @@ header{
 .fa-bars{
     padding: 0rem;
 }
-.fab{
-    color: black;
-}
 .menu{
     position: absolute;
     overflow: auto;
