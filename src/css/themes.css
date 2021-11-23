@@ -1,6 +1,6 @@
 :root{
     --theme-blue:#2a39bdd3;
-    --light-grey:rgba(235 231 249);
+    --light-grey:#f2f2f7da;
   }  
 body{
     color: white;
@@ -164,6 +164,9 @@ li{
 .linkedin-git a{
     color: white;
     text-decoration: none;
+}
+.linkedin-git a:hover{
+    color: var(--light-grey);
 }
 .fab{
     font-size: 1.6rem;
