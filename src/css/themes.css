@@ -3,7 +3,6 @@
     --light-grey:rgba(235 231 249);
   }  
 body{
-    background-color:var(--theme-blue);
     color: white;
     letter-spacing: .1rem;
     line-height: 1.5rem;
@@ -49,15 +48,14 @@ a{
 li{
     font-size: 1rem;
 }
-header{
-    padding: 1rem;
-}
 .nav-bar{
     position: relative;
     display: grid;
     grid-template-columns: 4fr 1fr;
     font-size: 1.4rem;
     align-items: center;
+    background-color: var(--theme-blue);
+    padding: 1rem;
 }
 .nav-bar h3{
     justify-self: flex-start;
@@ -68,7 +66,6 @@ header{
     position: relative;
 }
 .dropdown button{
-    background-color: var(--theme-blue);
       border: none;
       color: white;
       padding: 0rem;
@@ -79,10 +76,10 @@ header{
 }
 .fa-bars{
     padding: 0rem;
+    background-color: var(--theme-blue);
 }
 .menu{
     position: absolute;
-    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: white;
@@ -90,11 +87,10 @@ header{
     left: -10rem;
     margin-top: 0.5rem;
     display: none;
-    background-color:var(--theme-blue);
+    background-color: var(--theme-blue);
 }
 .menu a{
     color:white;
-    font-size: 1rem;
     padding: .5rem;
     padding-right: 0rem;
     text-decoration: none;
@@ -103,6 +99,7 @@ header{
 }
 .intro-photo-contact{
     display: block;
+    background-color: var(--theme-blue);
 }
 .intro{
     background:url(https://cdn.vox-cdn.com/thumbor/78CD8_rVttHcu7u5MyrDVfk43zA=/4x0:1017x675/1280x854/cdn.vox-cdn.com/uploads/chorus_image/image/65863458/office2016review2_1020.0.0.1442915145.0.jpg);
@@ -158,12 +155,18 @@ header{
 .email-phone{
     padding: 1rem;
 }
-.linkedin{
+.linkedin-git{
+    display: grid;
     padding: 1rem;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
 }
-.linkedin a{
+.linkedin-git a{
     color: white;
-    font-size: 1.4rem;
+    text-decoration: none;
+}
+.fab{
+    font-size: 1.6rem;
 }
 .download{
     padding: 1rem;
@@ -235,6 +238,9 @@ header{
 }
 .skill-item{
 padding-top: 0.5rem;
+}
+.certificates-interests{
+    background-color: var(--theme-blue);
 }
 .certifications, .white-head h4{
     color: white;
@@ -325,7 +331,7 @@ li{
         font-size: 1.2rem;;
     }
     .nav-bar{
-        padding: 1rem 6rem;
+        padding: 2rem 6rem;
         grid-template-columns: 1fr;
     }
 .nav-name{
@@ -339,13 +345,11 @@ li{
 }
 .menu{
     position: relative;
-    overflow: auto;
     box-shadow: none;
-    z-index: 1;
-    color: white;
     text-align: left;
     left: auto;
     margin-top: 0.5rem;
+    background-color:inherit;
     display: block;
 }
 .menu a{
@@ -418,6 +422,11 @@ li{
 }
 .download a{
     padding: 1rem 2rem;
+}
+.download a:hover{
+    color: var(--theme-blue);
+    background-color: var(--light-grey);
+    padding: 1.2rem 2.2rem;
 }
 .about{
     padding: 2rem 6rem;
