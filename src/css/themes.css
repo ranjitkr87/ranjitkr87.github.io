@@ -90,6 +90,7 @@ header{
     left: -10rem;
     margin-top: 0.5rem;
     display: none;
+    background-color:var(--theme-blue);
 }
 .menu a{
     color:white;
