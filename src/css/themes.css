@@ -5,7 +5,6 @@
 body{
     color: white;
     letter-spacing: .1rem;
-    line-height: 1.5rem;
     text-align: center;
 }
 button{
@@ -219,24 +218,30 @@ li{
     font-weight: 300;
     padding: 1rem;
 }
+.skill-item-border{
+    border-bottom: 4px solid;
+    margin-bottom: 1rem;
+}
+.skill-item-border:hover{
+    transform: scaleY(1.05);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
 .skill-item-1{
-    border-bottom: 3px solid;
     border-image:   linear-gradient(to right, #2a39bdd3 100%, rgb(199, 199, 196) 0%) 5;
     padding-top: 2rem;
 }
 .skill-item-2{
-    border-bottom: 3px solid;
-    border-image:   linear-gradient(to right, #2a39bdd3 80%, rgb(199, 199, 196) 20%) 5;
+    border-image:   linear-gradient(to right, #2a39bdd3 85%, rgb(199, 199, 196) 15%) 5;
     padding-top: 2rem;
 }
 .skill-item-3{
-    border-bottom: 3px solid;
-    border-image:   linear-gradient(to right, #2a39bdd3 60%, rgb(199, 199, 196 )40%) 5;
+    border-image:   linear-gradient(to right, #2a39bdd3 70%, rgb(199, 199, 196 )25%) 5;
     padding-top: 2rem;
 }
 .skill-item-4{
-    border-bottom: 3px solid;
-    border-image:   linear-gradient(to right, #2a39bdd3 50%, rgb(199, 199, 196) 50%) 5;
+    border-image:   linear-gradient(to right, #2a39bdd3 60%, rgb(199, 199, 196 )35%) 5;
     padding-top: 2rem;
 }
 .skill-item{
@@ -436,12 +441,33 @@ li{
 }
 .education-experiance-div{
     padding: 2rem 6rem;
-    display: grid;
-    grid-template-columns: 50% 50%;
+}
+.items{
+display: grid;
+grid-gap: .5rem;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 1rem;
 }
 .item{
-padding: 0rem;
+padding: 1rem;
 padding-bottom: 2rem;
+border-radius: 10px;
+}
+    .item:hover{
+    background-color: var(--light-grey);
+    cursor: pointer;
+    transform: scale(1.05);
+    }
+.grid-1{
+    justify-self: flex-start;
+}
+.grid-2{
+    justify-self: center;
+    text-align: center;
+}
+.grid-3{
+    justify-self: flex-end;
+    text-align: right;
 }
 .skills-dev{
     padding: 2rem 6rem;
@@ -455,13 +481,20 @@ padding-bottom: 2rem;
     padding-left: 0rem;
     font-size: 1.2rem;
 }
-.language-skills{
+.skill-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .skill-items{
     padding-bottom: 3rem;
+}
+.skill-item-border{
+    margin-right: 2rem;
+}
+.cert-item{
+padding: 1rem;
+padding-bottom: 2rem;
+border-radius: 10px;
 }
 .certificates-interests-div{
     padding: 2rem 6rem;
@@ -504,5 +537,10 @@ justify-self: flex-end;
 }
 .download-bottom{
     padding: 2rem;
+}
+.download-bottom a:hover{
+    background-color:var(--theme-blue);
+    color: var(--light-grey);
+    padding: 1.2rem 2.2rem;
 }
 }
