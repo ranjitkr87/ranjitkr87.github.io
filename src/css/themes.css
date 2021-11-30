@@ -414,7 +414,10 @@ li{
     padding: 0rem 6rem 0rem 2rem
 }
 .my-image-div{
-    padding :0rem
+    padding :0rem;
+}
+.my-image-div:hover{
+    transform: scale(1.05);
 }
 .my-image{
     display: block;
@@ -496,6 +499,10 @@ padding: 1rem;
 padding-bottom: 2rem;
 border-radius: 10px;
 }
+.cert-item:hover{
+transform: scaleY(1.05);
+cursor: pointer;
+}
 .certificates-interests-div{
     padding: 2rem 6rem;
     display: grid;
@@ -505,6 +512,10 @@ border-radius: 10px;
     height: fit-content;
     align-self: center;
     background-color: var(--light-grey);
+}
+.interests:hover{
+    transform: scaleY(1.05);
+    border-radius: 3px;
 }
 .interest-items p{
     padding-bottom: 2rem;
