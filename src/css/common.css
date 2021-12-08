@@ -1,6 +1,10 @@
 :root{
     --theme-blue:#2a39bdd3;
   }  
+  ::selection{
+    background-color: var(--theme-blue);
+    color: white;
+  }
   .common-details h2{
     font-family: Dancing Script;
     padding: 1rem 1rem .5rem 1rem;

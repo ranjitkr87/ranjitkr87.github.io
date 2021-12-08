@@ -413,6 +413,10 @@ li{
 .photo-contact{
     padding: 0rem 6rem 0rem 2rem
 }
+    .photo-contact ::selection, .certificates-interests ::selection{
+        background-color:white ;
+    color: var(--theme-blue);
+    }
 .my-image-div{
     padding :0rem;
 }
